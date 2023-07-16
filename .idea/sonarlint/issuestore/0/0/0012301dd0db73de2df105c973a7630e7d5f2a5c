@@ -1,0 +1,14 @@
+
+X
+java:S1854"6Remove this useless assignment to local variable "t1".(ó­šÒùÿÿÿÿ8Ñ€—¡‰1
+I
+java:S1481"'Remove this unused "t1" local variable.(ó­šÒùÿÿÿÿ8Ô€—¡‰1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ş÷úq8í€—¡‰1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(»Éÿ8ï€—¡‰1
+t
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¾Œîıÿÿÿÿ8ğ€—¡‰1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ô¤„å8ñ€—¡‰1
+T
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8ó€—¡‰1
+L
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8õ€—¡‰1
