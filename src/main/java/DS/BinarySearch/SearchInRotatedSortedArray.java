@@ -35,5 +35,7 @@ public class SearchInRotatedSortedArray {
         int a[] = {4,5,6,7,0,1,2};
         int target = 0;
         System.out.println(search(a, target));
+        System.out.println("Min in array " + new MinimumInSortedArray().findMin(a));
+        System.out.println("Min in array " + new MinimumInSortedArray().findMinn(a));
     }
 }

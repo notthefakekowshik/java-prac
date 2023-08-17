@@ -18,7 +18,7 @@ public class LooselyCoupledCode {
     }
 
     public static void main(String[] args) {
-        person p = new person("kavya");
+        person p = new person("kowshik");
         student s = new student(p);
         s.displayName();
     }
