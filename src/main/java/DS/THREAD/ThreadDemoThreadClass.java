@@ -1,4 +1,4 @@
-package DS;
+package DS.THREAD;
 
 public class ThreadDemoThreadClass extends Thread {
 
