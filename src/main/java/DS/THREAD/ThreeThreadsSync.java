@@ -57,34 +57,59 @@ class ThreeThreadsImpl implements Runnable {
     private static final Object lock = new Object();
 
     @Override
-    public void run() {
-        synchronized (this) {
-            while (counter <= 20) {
-                try {
-                    if (Thread.currentThread().getName().equals("two") && counter % 2 == 0) {
-                        System.out.println(Thread.currentThread().getName() + "-->" + counter);
-                        counter += 1;
-                        this.notifyAll();
-                    } else if (Thread.currentThread().getName().equals("three") && counter % 3 == 0) {
-                        System.out.println(Thread.currentThread().getName() + "-->" + counter);
-                        counter += 1;
-                        this.notifyAll();
-                    } else if (Thread.currentThread().getName().equals("five") && counter % 5 == 0) {
-                        System.out.println(Thread.currentThread().getName() + "-->" + counter);
-                        counter += 1;
-                        this.notifyAll();
-                        // what if I use lock.notify() in all the cases.
-                    } else if (counter%2!=0 && counter %3 !=0 && counter%5!=0) {
-                        counter+=1;
-                    } else {
-                        this.wait();
-                    }
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
+    public synchronized void run() {
+        while (counter <= 20) {
+            try {
+                if (Thread.currentThread().getName().equals("two") && counter % 2 == 0) {
+                    System.out.println(Thread.currentThread().getName() + "-->" + counter);
+                    counter += 1;
+                    this.notifyAll();
+                } else if (Thread.currentThread().getName().equals("three") && counter % 3 == 0) {
+                    System.out.println(Thread.currentThread().getName() + "-->" + counter);
+                    counter += 1;
+                    this.notifyAll();
+                } else if (Thread.currentThread().getName().equals("five") && counter % 5 == 0) {
+                    System.out.println(Thread.currentThread().getName() + "-->" + counter);
+                    counter += 1;
+                    this.notifyAll();
+                    // what if I use lock.notify() in all the cases.
+                } else if (counter % 2 != 0 && counter % 3 != 0 && counter % 5 != 0) {
+                    counter += 1;
+                } else {
+                    this.wait();
                 }
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
             }
         }
-        // You can use this/lock.
+
+//        synchronized (this) {
+//            while (counter <= 20) {
+//                try {
+//                    if (Thread.currentThread().getName().equals("two") && counter % 2 == 0) {
+//                        System.out.println(Thread.currentThread().getName() + "-->" + counter);
+//                        counter += 1;
+//                        this.notifyAll();
+//                    } else if (Thread.currentThread().getName().equals("three") && counter % 3 == 0) {
+//                        System.out.println(Thread.currentThread().getName() + "-->" + counter);
+//                        counter += 1;
+//                        this.notifyAll();
+//                    } else if (Thread.currentThread().getName().equals("five") && counter % 5 == 0) {
+//                        System.out.println(Thread.currentThread().getName() + "-->" + counter);
+//                        counter += 1;
+//                        this.notifyAll();
+//                        // what if I use lock.notify() in all the cases.
+//                    } else if (counter % 2 != 0 && counter % 3 != 0 && counter % 5 != 0) {
+//                        counter += 1;
+//                    } else {
+//                        this.wait();
+//                    }
+//                } catch (InterruptedException e) {
+//                    throw new RuntimeException(e);
+//                }
+//            }
+//        }
+//        // You can use this/lock.
     }
 }
 
