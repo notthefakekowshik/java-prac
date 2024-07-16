@@ -1,0 +1,12 @@
+
+
+java:S1598"qThis file "GenericExtends.java" should be located in "org\DSA" directory, not in "D:\java-prac\src\main\java\DS".(§ºÀ€8ŸÏÌñ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§ºÀ€8¢ÏÌñ1
+\
+java:S6213":Rename this variable to not match a restricted identifier.(Òìó×ùÿÿÿÿ8ªÏÌñ1
+L	java:S106"+Replace this use of System.out by a logger.(™áŠóşÿÿÿÿ8®ÏÌñ1
+G	java:S106"+Replace this use of System.out by a logger.(·®´ÿ8¯ÏÌñ1
+L
+java:S1197	"*Move the array designators [] to the type.(Á÷Óõıÿÿÿÿ8±ÏÌñ1
+G	java:S106
+"+Replace this use of System.out by a logger.(„Ü²Á8²ÏÌñ1

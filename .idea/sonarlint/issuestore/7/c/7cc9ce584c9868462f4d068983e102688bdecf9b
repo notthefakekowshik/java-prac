@@ -1,0 +1,7 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ÑˆJ$ece31ad0-66a5-473f-98e3-25fcbf3ee970
+
+java:S2095"MUse try-with-resources or close this "ExecutorService" in a "finally" clause.(÷ÔØªüÿÿÿÿJ$e740d68e-0763-4dae-89ba-a52088ce9ee5
+f	java:S106"+Replace this use of System.out by a logger.(èûßÂJ$5993b38d-ad55-4a2a-9d4c-cd64d2f68531
+
+java:S1128"7Remove this unused import 'lombok.experimental.Helper'.(Ş»Ì™ûÿÿÿÿ8¬€ñËñ1J$a2ed0219-f781-4378-aec9-1cd8e90f3368
