@@ -1,9 +1,0 @@
-
-\
-java:S6213":Rename this variable to not match a restricted identifier.(·–ê¡ıÿÿÿÿ8”õ¾ Š1
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(™áŠóşÿÿÿÿ8î¢ÜœŠ1
-U	java:S106	"9Replace this use of System.out or System.err by a logger.(·®´ÿ8ÀôÜœŠ1
-L
-java:S1197
-"*Move the array designators [] to the type.(Á÷Óõıÿÿÿÿ8ï¢ÜœŠ1
-U	java:S106"9Replace this use of System.out or System.err by a logger.(„Ü²Á8±ÀŞœŠ1

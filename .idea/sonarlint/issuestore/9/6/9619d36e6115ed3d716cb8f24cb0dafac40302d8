@@ -1,21 +1,0 @@
-
-`
-java:S1854">Remove this useless assignment to local variable "anotherVal".(Ώ£ώÿÿÿÿ8‘—΅‰1
-Y
-java:S1854"7Remove this useless assignment to local variable "val".(ιΗ“ώÿÿÿÿ8‘—΅‰1
-[
-java:S1854"?Remove this useless assignment to local variable "updatedList".(μάΎm8‘—΅‰1
-b
-java:S1612"@Replace this lambda with method reference 'System.out::println'.(Ω°·ύÿÿÿÿ8•—΅‰1
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ω°·ύÿÿÿÿ8•—΅‰1
-n
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(μάΎm8–—΅‰1
-L
-java:S1481"0Remove this unused "updatedList" local variable.(μάΎm8——΅‰1
-J
-java:S1481"(Remove this unused "val" local variable.(ιΗ“ώÿÿÿÿ8——΅‰1
-Q
-java:S1481"/Remove this unused "anotherVal" local variable.(Ώ£ώÿÿÿÿ8—΅‰1
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(»Ά³όÿÿÿÿ8™—΅‰1
-N
-java:S1128"1Remove this unused import 'java.util.Comparator'.(ξΉσΉ8—΅‰1
